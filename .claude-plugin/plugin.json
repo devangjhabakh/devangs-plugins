@@ -1,0 +1,6 @@
+{
+  "name": "scoping",
+  "description": "Interactive scoping for engineering work. Walks a piece of work from an ambiguous ask to a defensible scoping doc — boundary, prior art, risks, probes, estimate, kill criteria — stopping to ask at every checkpoint instead of assuming.",
+  "version": "0.1.0",
+  "keywords": ["scoping", "estimation", "planning", "risk", "design-doc"]
+}
