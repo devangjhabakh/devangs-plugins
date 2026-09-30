@@ -17,6 +17,12 @@ Two rules do most of the work:
 
 Invoke it again in **re-forecast mode** when work passes its trigger: three sentences — what you got wrong, the new number, what changed your mind. Then stop, with no softener on the end.
 
+### `/shipping-checklist`
+
+Pre-launch follow-through: the things that get skipped when you're rushing to ship. Tests including error paths, feature flag and rollout, measurement, monitoring and rollback, security, user and partner-team communication, changelog, docs, cleanup, and what's likely to break a month from now.
+
+It checks what it can from the diff itself, asks about everything else in one grouped round, and won't call anything **Ready** while an item is still open. It never flips flags, merges, deploys, or sends messages — it checks and drafts.
+
 ## Install
 
 ```bash
@@ -36,6 +42,8 @@ skills/
       risk-lenses.md      # the lenses, most-skipped first
       doc-template.md     # output shape
       calibration.md      # personal measured multipliers — private
+  shipping-checklist/
+    SKILL.md
 ```
 
 ## Adding a skill

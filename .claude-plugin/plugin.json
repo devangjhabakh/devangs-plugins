@@ -1,6 +1,15 @@
 {
   "name": "devangs-plugins",
-  "description": "Personal Claude Code skills. Currently: /scope, an interactive scoping workflow that takes engineering work from an ambiguous ask to a scoping doc — boundary, prior art, risks, probes, estimate, kill criteria — stopping to ask at every checkpoint instead of assuming.",
-  "version": "0.1.0",
-  "keywords": ["scoping", "estimation", "planning", "risk", "personal"]
+  "description": "Personal Claude Code skills. /scope: interactive scoping from an ambiguous ask to a scoping doc, stopping to ask at every checkpoint instead of assuming. /shipping-checklist: pre-launch follow-through (tests incl. error paths, flags, rollout, measurement, rollback, security, communication, cleanup) that verifies what it can and never assumes an item is done.",
+  "version": "0.2.0",
+  "keywords": [
+    "checklist",
+    "estimation",
+    "launch",
+    "personal",
+    "planning",
+    "risk",
+    "scoping",
+    "shipping"
+  ]
 }
