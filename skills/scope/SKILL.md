@@ -130,11 +130,18 @@ Refuse to finish if any of these is missing:
 - [ ] Estimate is a range with a named spread driver
 - [ ] Focused-work vs calendar stated
 - [ ] Kill criteria written
-- [ ] Re-forecast trigger set as a number
+- [ ] Re-forecast trigger set as a number on the clock, plus the discovery trigger
 
 ## Re-forecast mode
 
-Invoke separately when work exceeds its trigger. **This is the most important thing the skill does**, and the part most likely to be skipped.
+Invoke separately when either trigger fires — **whichever comes first**:
+
+- **The clock:** work reaches the number set in the doc (typically 2x the estimate).
+- **A discovery:** you find something that changes the number — a dependency on another team, a missing API, a blocked review, a risk that turned out to be real. Re-forecast **that day**, even if the clock says you're still on track.
+
+The discovery trigger matters more. Waiting for the clock means sitting on known bad news until it's undeniable, which is how a problem found in week two reaches the manager in week four.
+
+**This is the most important thing the skill does**, and the part most likely to be skipped.
 
 Help write exactly three things:
 1. What I got wrong

@@ -42,7 +42,8 @@ Owners and approvers · review latency · others in this code · cross-team depe
 What would make me stop.
 
 ## Re-forecast trigger
-**At — I re-forecast in writing, regardless of how close it feels.**
+**Clock: at — I re-forecast in writing, regardless of how close it feels.**
+**Discovery: the day I find anything that changes the number, I say so — even if the clock says I'm fine.**
 
 ## What I'd have to believe for this to be a bad idea
 One honest sentence.
